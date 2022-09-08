@@ -3,9 +3,9 @@
   <head>
     {% include head.html %}
   </head>
-  {% include header.html %}
   <body>
-    <div class="container">
+    {% include header.html %}
+    <div class="container mt-3">
         {{ content }}
     </div>
     {% include scripts.html %}
