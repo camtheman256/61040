@@ -3,7 +3,7 @@ title: Home
 description: Cameron's project portfolio for 6.1040 Fall 2022
 ---
 
-# Cameron's 6.1040 Portfolio
+# Home
 ---
 
 Welcome to my portfolio for [MIT's Fall 2022 6.1040 Software Studio](https://61040-fa22.github.io/){:target="_blank"}!
