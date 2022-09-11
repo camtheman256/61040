@@ -7,6 +7,9 @@ layout: default
 <p>{{ page.date | date: site.date_format }}</p>
 {% if page.categories.size > 0 %}
 <p>
+    {% if page.assignment %}
+    <span class="badge bg-primary">Assignment {{ page.assignment }}</span>&ensp;
+    {% endif %}
     Categories: 
     {% for category in page.categories %}
     <span class="badge bg-secondary me-2">{{ category }}</span>
