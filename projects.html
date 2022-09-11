@@ -1,0 +1,15 @@
+---
+layout: default
+title: Projects
+description: A list of all my 6.1040 projects and blog posts
+nav: true
+---
+
+<h1>Projects</h1>
+
+{% for post in site.posts %}
+<div class="mt-3">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+
+</div>
+{% endfor %}
