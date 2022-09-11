@@ -7,9 +7,19 @@ nav: true
 
 <h1>Projects</h1>
 
+<p>A list of projects and blog posts for my 6.1040 assignments.</p>
+
 {% for post in site.posts %}
 <div class="mt-3">
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-
+    <div class="d-flex flex-row">
+        {% for category in post.categories %}
+        <span class="badge bg-secondary me-2">{{ category }}</span>
+        {% endfor %}
+        <small class="me-2">
+            Posted {{ post.date | date: site.date_format }}
+        </small>
+    </div>
+    <p>{{ post.excerpt }}</p>
 </div>
 {% endfor %}

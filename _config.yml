@@ -4,3 +4,5 @@ markdown: kramdown
 highlighter: rouge
 
 github: https://github.com/camtheman256/61040/tree/main
+
+date_format: "%A, %B %e, %Y"
