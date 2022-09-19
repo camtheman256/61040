@@ -106,7 +106,7 @@ However, Twitter has also traditionally had a huge harassment problem, causing m
 
 # Looking at Twitter's Design through Interviews
 
-To dig deeper into my analysis of Twitter, I wanted to find a couple people that would have differing use cases for the platform. So, I interviewed my grandpa, Steve, who checks Twitter a few times a day, and a friend at Caltech named, Eitan, who remarked to me that he was aspiring to get more into the platform.
+To dig deeper into my analysis of Twitter, I wanted to find a couple people that would have differing use cases for the platform. So, I interviewed my grandpa, Steve, who checks Twitter a few times a day, and a friend at Caltech named Eitan, who remarked to me that he was aspiring to get more into the platform.
 
 ## Interview with My Grandpa Steve
 
