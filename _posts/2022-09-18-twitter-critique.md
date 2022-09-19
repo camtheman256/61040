@@ -126,6 +126,10 @@ Eitan also talked a bit about why he particularly disliked other platforms such 
 
 My interview with Eitan produced some fascinating thoughts about social media in general. It was interesting how the focus of Instagram and Snapchat on online personalities made these platforms feel "icky," whereas the focus of Reddit and Twitter on sharing information publicly made them feel more honest and well-intentioned. Eitan appreciated the fact that Twitter didn't resort to growth-hacking, attention-grabbing behavior, like sending spammy notifications or implementing addictive full-screen video scrolling. As Twitter grows, it ought to look to its core base of users before copying features from other platforms that might drive these people away, as it might ruin its "authentic" feel.
 
+## Interview Planning Materials
+
+My interview questions and notes can be found on [this document](https://docs.google.com/document/d/1NGn59jrb99JvpHwFEBdTnSHqkpG_l9GVF0EdEfpmwf0/edit?usp=sharing).
+
 
 [^1]: [*Twitter released 9 million tweets from one Russian troll farm. Here’s what we learned.*](https://www.vox.com/2018/10/19/17990946/twitter-russian-trolls-bots-election-tampering) (Vox)
 [^2]: [*The Agency*](https://www.nytimes.com/2015/06/07/magazine/the-agency.html) (New York Times)
