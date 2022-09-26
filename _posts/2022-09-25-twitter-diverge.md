@@ -24,7 +24,7 @@ Although these concepts are intended to be used in our Fritter clone, I found it
 
 **Purpose:** Provide a central, safe, moderated place to post about a common topic on Twitter.
 
-**Operational Principle**: Users can "join" a community like they would follow any other user, and tweets from that community will appear in their feed. Communities have moderators and rules attached to them, and posts must be explicitly attached to a community in order to appear in its feed. Communities can be referenced from thor tweets using the ampersand (&) character, like you might reference a hashtag or another user.
+**Operational Principle**: Users can "join" a community like they would follow any other user, and tweets from that community will appear in their feed. Communities have moderators and rules attached to them, and posts must be explicitly attached to a community in order to appear in its feed. Communities can be referenced from tweets using the ampersand (&) character, like you might reference a hashtag or another user.
 
 # Briefing
 
