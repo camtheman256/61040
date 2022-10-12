@@ -4,7 +4,16 @@ layout: default
 <div class="col-lg-8 offset-lg-2">
     <h1>{{ page.title }}</h1>
     <h4 class="text-muted">{{ page.subtitle }}</h4>
-    <p>{{ page.date | date: site.date_format }}</p>
+    <p>
+        {{ page.date | date: site.date_format }}
+        <span class="ms-3 fst-italic small text-muted">
+            a
+            {% assign words = page.content | strip_html | number_of_words %}
+            {% assign ert = words | divided_by:250 | at_least: 1 %}
+            {{ content | strip_html | number_of_words | divided_by: 200 | at_least: 1 }}
+            minute read
+        </span>
+    </p>
     {% if page.categories.size > 0 %}
     <p>
         {% if page.assignment %}
@@ -16,6 +25,7 @@ layout: default
         {% endfor %}
     </p>
     {% endif %}
+
 
     <hr />
 
