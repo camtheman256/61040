@@ -1,0 +1,20 @@
+---
+layout: default
+title: Projects
+description: A list of all my 6.1040 projects and blog posts
+nav: true
+---
+
+<h1>Projects</h1>
+
+<p>A list of projects and blog posts for my 6.1040 assignments.</p>
+
+<p>
+  <b>Filter:</b>
+  <a href="{% link projects/assignment.html %}"><span class="badge bg-secondary">assignment</span></a>
+  <a href="{% link projects/final-project.html %}"><span class="badge bg-secondary">final-project</span></a>
+</p>
+
+{% for post in site.posts %}
+{% include post.html %}
+{% endfor %}

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+<p>
+  Viewing
+  <span class="badge bg-secondary">{{ page.filter_category }}</span>
+  posts.
+</p>
+
+<p><a href="{% link projects/index.html %}">View all project posts.</a></p>
+
+
+{% for post in site.posts %}
+{% if post.categories contains page.filter_category %}
+  {% include post.html %}
+{% endif %}
+{% endfor %}
